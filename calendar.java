@@ -1,9 +1,9 @@
 import java.util.*;
 class Mydate
 {
-	private int day;
-	private int month;
-	private int year;
+	private int dd;
+	private int mm;
+	private int yyyy;
 	int[] DayInMonth={30,31,30,31,30,31,30,31,31,30,31,30,31};
 	public void SetDate(int d,int m,int y)
 	{
